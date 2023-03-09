@@ -1,0 +1,11 @@
+/Library
+*.sln
+*.user
+*.csproj
+*.cache
+*.userprefs
+/.vs/
+/out/
+/Temp
+*.suo
+.vscode/settings.json
