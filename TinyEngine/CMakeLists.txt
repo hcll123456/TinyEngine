@@ -12,9 +12,11 @@ link_directories(${CMAKE_SOURCE_DIR}/OpenGL/Libs)
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (TinyEngine 
-    "TinyEngine.cpp" 
+    "TinyEngine.cpp"
     "TinyEngine.h"
     "glad.c"
+    "VertexData.h"
+    "shader.h"
 )
 
 
